@@ -10,6 +10,10 @@ const globalStyles = [
         padding: 0,
         boxSizing: 'border-box',
         WebkitFontSmoothing: 'antialiased',
+        outline: 'none',
+      }),
+      globalStyle('html', {
+        fontSize: '62.5%',
       }),
       globalStyle('body', {
         fontSize: '1rem',

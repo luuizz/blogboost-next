@@ -1,7 +1,8 @@
 const breakpoints = {
     mobile: '560px',
     tablet: '991px',
-    desktop: '1200px',
+    desktopXS: '1100px',
+    desktopBase: '1200px',
   };
   
   export const responsiveStyle = (stylesByBreakpoint) => {

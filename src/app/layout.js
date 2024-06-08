@@ -1,5 +1,6 @@
 import localFont from "next/font/local"
 import "./app.css"
+import Header from "@/components/Header/Header";
 
 const atypBLText = localFont({
   src: [
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={atypBLText.className}>
+        <Header />
         {children}
       </body>
     </html>
