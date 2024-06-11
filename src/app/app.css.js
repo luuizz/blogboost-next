@@ -62,12 +62,19 @@ const globalStyles = [
         margin: '0 auto',
       }),
       globalStyle('h1, h2, h3, h4, h5, h6', {
-        fontWeight: 700,
+        fontWeight: 600,
         lineHeight: variable.lineHeight.short,
       }),
       globalStyle('p', {
         lineHeight: variable.lineHeight.base,
       }),
+      globalStyle('.category', {
+        fontWeight: 600,
+        fontSize: '1.4rem',
+        lineHeight: '105%',
+        textTransform: 'uppercase',
+        color: variable.pink,
+      })
 ]
 
 const headingStyles = [
