@@ -22,6 +22,16 @@ export const styles = {
         alignItems: 'center',
         flexDirection: 'row',
         justifyContent: 'space-between',
+        ".hamburger-react": {
+            display: "none"
+        },
+        ...responsiveStyle({
+            tablet: ({
+                ".hamburger-react": {
+                    display: "block"
+                },
+            })
+        })
     }),
 
     logo: style({
@@ -79,5 +89,32 @@ export const styles = {
         lineHeight: variable.lineHeight.base,
         marginLeft: '0.8rem',
         transition: 'color .3s ease',
-    })
+    }),
+
+    aside: style({
+        padding: "6.4rem 0px",
+        width: "100%",
+        height: `calc(100vh - ${variable.headerHeight})`,
+        backgroundColor: variable.black,
+        opacity: 0,
+        pointerEvents: "none",
+        top: variable.headerHeight,
+        transition: "all 0.3s ease 0s",
+        transform: "translateY(100%)",
+        zIndex: 50,
+        position: "fixed", 
+        "&.open": {
+        pointerEvents: "all",
+        opacity: 1,
+        transform: "translateY(0px)",
+        },
+        'nav': {
+            'ul': {
+                display: 'block'
+            },
+            'form': {
+                display: 'flex'
+            }
+        }
+    }),
 }
