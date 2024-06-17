@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "configuracaos",
+  "info": {
+    "singularName": "configuracao",
+    "pluralName": "configuracaos",
+    "displayName": "Configuração"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    },
+    "MetaKeywords": {
+      "type": "string"
+    },
+    "OGImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

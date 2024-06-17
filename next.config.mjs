@@ -5,8 +5,9 @@ import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin';
     images: {
       remotePatterns: [
         {
-          protocol: 'https',
-          hostname: 'cdn.prismic.io',
+          protocol: 'http',
+          hostname: 'localhost',
+          port: '1337',
         },
       ],
     },
