@@ -52,6 +52,10 @@
       "relation": "manyToMany",
       "target": "api::categoria.categoria",
       "inversedBy": "posts"
+    },
+    "fixarTopo": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

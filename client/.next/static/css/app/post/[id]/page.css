@@ -1,0 +1,284 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FHome%2FSectionPlaylists%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACq1TzY6bMBC%2B5ynmUmn3YAQkZDfOpVKvPfQNkIFJcBdsak8CqMq7VzgsXWSy6c9eQNjMN9%2FPTGCprzB1T5tazElqlaZRfk76Hy8h%2FFwBNKIopDpyeA62BmsIYWew3q8uq2BWnWtFQio0U33k6gtpm0r0HA4VdvsVgKjkUTFJWFsOOSpCMxx%2FP1mSh54NOKiIg21EjixDahHV8McAwApprjQ5GN36NAg7%2BooHmljEjkUtOtbKgkoOcRgkiwrKzVS0HovMUSpGuuEQBRtXBJDrShsOZ2EeGGtLSZimEZ6zSp7Eo49q5LGkL545G9eBtZi9SGKZ7tggj0PUOJNYbecH48d%2BruU5nmi977PzzpIw9B9eAxxFw2EdxIv%2BDa2%2BVaKvpP1tf8JLfUbj1JaJewHoRuSS%2BlHPxUfKtbITxPav5mgMLdNEuuYQj2TvcC%2BTqd2Ta3cn5TcawuBp%2BCYjlJVXt8Y7CNYWUFgc7sfEotft%2BVxjIQU8vElzt4ua7tG1%2F7Pd8nPKdXWqXYI3Dbp48Dd2ZjZpURh%2BusJ6QfwTCy%2Bo1zn26b27QTOS2%2BQmyPJwjhAfI8lv6k0VwOA1cwDz0sWBSLbh8kDcseSj9Fx%2BAYzNMvchBgAA%22%7D ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_styles_section__1cv5yqk0 {
+  padding: 8.6rem 0 9rem;
+}
+.style_styles_container__1cv5yqk1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.style_styles_textLeft__1cv5yqk2 {
+  max-width: 20.5rem;
+}
+.style_styles_h4__1cv5yqk3 {
+  margin-top: 1.4rem;
+  color: var(--white__1evbliua);
+}
+.style_styles_rightContainer__1cv5yqk4 {
+  flex: 1 1;
+  max-width: 82.4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 3.2rem;
+}
+.style_styles_itemPlaylist__1cv5yqk5:hover {
+  h5 {
+    opacity: 1;
+  }
+}
+.style_styles_icons__1cv5yqk6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  gap: 3.2rem;
+}
+.style_styles_h5__1cv5yqk7 {
+  color: var(--white__1evbliua);
+  opacity: 0.7;
+  transition: opacity .3s ease;
+  width: 19rem;
+}
+@media (max-width: 991px) {
+  .style_styles_container__1cv5yqk1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .style_styles_textLeft__1cv5yqk2 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .style_styles_rightContainer__1cv5yqk4 {
+    max-width: 65rem;
+  }
+  .style_styles_itemPlaylist__1cv5yqk5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .style_styles_h5__1cv5yqk7 {
+    text-align: center;
+  }
+}
+@media (max-width: 560px) {
+  .style_styles_rightContainer__1cv5yqk4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FHome%2FSectionArtigos%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACqWS3YrbMBCF7%2F0UA2UhAStIzr9z0x%2FodaEPYGRroqgrS2akbBJK3r3YSdzdeFNKeyEJBjHnO2dmEuLJYtHdoQhYRePdJ4pG%2B1AUsyXyHXH4mQCUsnrW5PdO5WCNQ0lMk1QGXRyJFVeoU%2FjAv%2FIv4jOs5pPF%2BikF0qUciXkKIkshW6bAxyA4fxpvEoBGKmWczkFkhDXwtlZ6Ukis9DH6OoesOULw1ih4kTRiTEl6%2Fl5Ji0Uh8KW0Zr8eb5JzMnnjIvrmhi46dGVCY%2BUph63FYysjrdGOmYh1yKFCF5Ha8o99iGZ7YpV3EV3MITSyQlZiPCC69kfbgClDl5xyIH9oy7UkbVyPPSOsh1g91LSDqrz1lF%2BNaZKnzhhbcN6bW75jTlr7zYfYD2f21qEmo1qi9mUR68bKiKzydl%2B7kANhgzKOpimILY37j1o2F2qYTrIOfuBpdfX0sUZlJIxqeWQHo%2BKunR%2FnzXHcgfwN7GvRm9qDDAHO72uu1%2BIfJIeBiC215w9K88UDc4M1e7hXw7256F9U7%2Fvuslvb7Nr2Lpqsj%2Bb%2FzW%2Fu5vF7%2Fufk%2FAsn4uypHQQAAA%3D%3D%22%7D ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_styles_sectionArtigos__47e0hr0 {
+  background: linear-gradient(180deg, #0F0C1B 85.69%, rgba(15, 12, 27, 0) 100%);
+  padding: 12rem 0;
+  border-bottom: 2px solid var(--darkScale__1evbliu9);
+}
+.style_styles_top__47e0hr1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+.style_styles_p__47e0hr3 {
+  color: var(--grayScale-600__1evbliu7);
+}
+.style_styles_allPosts__47e0hr4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem 3.2rem;
+  margin-bottom: 8rem;
+}
+@media (max-width: 1200px) {
+  .style_styles_allPosts__47e0hr4 {
+    grid-gap: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .style_styles_allPosts__47e0hr4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .style_styles_top__47e0hr1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .style_styles_h2__47e0hr2 {
+    margin-bottom: 2rem;
+  }
+  .style_styles_allPosts__47e0hr4 {
+    grid-template-columns: 1fr;
+    grid-gap: 3.2rem;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FSingleTypePost%2FHeroPost%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACq1X246jOBB976%2BwRtpVt9RGhg7ptPtlNdqXkfZhpfmAyEABnjY2sk1CZjX%2FvuJiLmnI0Jp5g4pddarqnKLiGXsRcMxBq6%2FNkzkaiC1X8njkWXp5ZgT9d4dQqQxvrBRpEMzyE7zeIRSx%2BC3TqpIJjpVQmqIT0%2FcYn3Nu4Xj04RQJXrGH5mzJkoTLjKKdd9BQIIL8QEPxevfjzvspBhpBqjS0UGIlLUhL0adPrzNkLDJKVLZFZlVJEWmeBKS2f1yDm2l2%2BRozAdgnZIAdtLBz4FluKXrqYDemM09sTpFPyB%2FN63fMZQJ1G2MpF6vKv8EyLoxLx79R0sGb37wl3JSCXShKBdSNgQmeScwtFIaiGKQF3Zi%2FVcby9IKH2piSxYAjsGcAuYwr0sCSWFdFNAALWmDbgq66%2FIc7d0838vyTSmXvacq1sTjOuUge2tMIFUxnXOKub7u%2B5j%2FaK4K5w5SlFnR%2FYwAslYTu9BZ0Ex%2BbODXS5z1xwglx9g8jAz2XgO5ohIM5iYgX9gZHNGdZyoB9blJwCezm3YqEit8aT6mSFp97d3tCBpvh34EifwgpuATs4vokbOm8ooyFBDWTrkztJUS8J4OAGdiEnubqNJT%2F5vBYnBAlkzN%2FYevpN%2Ba%2BDUdkhym1%2F4B6NiDdLyMlW5DOu5Ny0RB9aM8jwmeI3rjF17%2F8PMdJ17rLFEUttyUYc0%2B8%2FXqdvhSZc%2FPcOuiV3kvD77WydDsFZisN%2FypjnYvD5iHah2kFOU7x3hopa1VB0WE1Ni9YBi7qSxv16gvgmrN79py8I6UT0FizhFemEbUL21QvFepMUc6TZG0287FU7FZE966ibxA37bSNFk%2Br81nVX2Sqhnkf%2FaZve6RqbHKWNGmRskbBrqzRrnnCh7JGOovYvb9%2FRH7wiILDIyIe2T%2FcLNNVvgWr8WgaTl3vFGP9u%2B5SRBCrrLpmAfbJIK%2BBK8FyzXLfVSt%2BP6tubQ4OQtBtO4G3TrFKfFa1C5N8aIxkrKQouCEdwSe%2B4Rc%2F8ILLt4m79BfdtUN8dJdtG%2BG7xcEYLgzGsT27SXvCSXv6NYMMzfmrgIQzdD9h3MuLX9bddrJVUjPG7sNhiVn0H%2B7Juv%2FVyfdugrmyzKlO3Pa0abCNkyUIJ5vXR9KeqCwcRDarx0vXqYl8g5uxrhU4o0MwSH5UXPeVv5X6guBQS1%2BccN3992iXmqqQnesZpduDxjJtux87DY5N%2Fh9yCMubVA0AAA%3D%3D%22%7D ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_heroStyles_section__igfy7a0 {
+  position: relative;
+  background-color: var(--white__1evbliua);
+  padding: 4.8rem 0 12rem;
+}
+.style_heroStyles_section__igfy7a0:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--grayScale-100__1evbliu2);
+  height: 34.8rem;
+  width: 100%;
+  z-index: 0;
+}
+.style_heroStyles_topDetails__igfy7a1 {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.style_heroStyles_breadcrumbs__igfy7a2 {
+  display: flex;
+  align-items: center;
+}
+.style_heroStyles_breadLi__igfy7a3 {
+  position: relative;
+  &:not(:first-child) {
+    margin-left: 4rem;
+  }
+  &:last-child:after {
+    display: none;
+  }
+}
+.style_heroStyles_breadLi__igfy7a3:after {
+  content: "";
+  position: absolute;
+  background: var(--grayScale-500__1evbliu6);
+  top: 0.4rem;
+  right: -2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.style_heroStyles_aBread__igfy7a4 {
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 105%;
+  color: var(--grayScale-500__1evbliu6);
+  transition: color 0.3s ease;
+}
+.style_heroStyles_aBread__igfy7a4:hover {
+  color: var(--white__1evbliua);
+}
+.style_heroStyles_spanBread__igfy7a5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 105%;
+  color: var(--white__1evbliua);
+}
+.style_heroStyles_btn__igfy7a6 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: var(--white__1evbliua);
+  transition: filter 0.3s ease;
+}
+.style_heroStyles_btn__igfy7a6:hover {
+  filter: brightness(0.6);
+}
+.style_heroStyles_btnImg__igfy7a7 {
+  margin-right: 1.4rem;
+}
+.style_heroStyles_featurePost__igfy7a8 {
+  position: relative;
+  z-index: 1;
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+}
+.style_heroStyles_image__igfy7a9 {
+  width: 100%;
+  height: 47.2rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.style_heroStyles_img__igfy7aa {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.style_heroStyles_boxInfos__igfy7ab {
+  position: relative;
+  background-color: var(--white__1evbliua);
+  box-shadow: 0px 24px 40px -8px rgba(16, 12, 28, 0.06);
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 100.8rem;
+  padding: 4.8rem 7.2rem;
+  margin: 0 auto;
+  margin-top: -10.6rem;
+  z-index: 2;
+}
+.style_heroStyles_h1__igfy7ac {
+  color: var(--grayScale-100__1evbliu2);
+  margin: 2rem 0 2.8rem;
+}
+.style_heroStyles_ulBox__igfy7ad {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.style_heroStyles_liBox__igfy7ae {
+  display: flex;
+  align-items: center;
+}
+.style_heroStyles_linkBox__igfy7af {
+  display: flex;
+  align-items: center;
+}
+.style_heroStyles_spanBox__igfy7ag {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: var(--grayScale-400__1evbliu5);
+  margin-left: 0.8rem;
+}
+@media (max-width: 991px) {
+  .style_heroStyles_boxInfos__igfy7ab {
+    max-width: 65rem;
+  }
+}
+@media (max-width: 560px) {
+  .style_heroStyles_featurePost__igfy7a8 {
+    margin-bottom: 4rem;
+    margin-top: 0;
+  }
+  .style_heroStyles_image__igfy7a9 {
+    height: 25rem;
+  }
+  .style_heroStyles_boxInfos__igfy7ab {
+    margin-top: -5.6rem;
+    max-width: 90%;
+    padding: 2rem;
+  }
+  .style_heroStyles_h1__igfy7ac {
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+  }
+  .style_heroStyles_ulBox__igfy7ad {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "blogboost",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,16 +10,16 @@
     "strapi": "strapi",
     "deploy": "strapi deploy"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.25.0",
-    "@strapi/plugin-users-permissions": "4.25.0",
-    "@strapi/plugin-i18n": "4.25.0",
     "@strapi/plugin-cloud": "4.25.0",
+    "@strapi/plugin-i18n": "4.25.0",
+    "@strapi/plugin-users-permissions": "4.25.0",
+    "@strapi/strapi": "4.25.0",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-plugin-reading-time": "^1.2.0",
     "styled-components": "5.3.3"
   },
   "author": {

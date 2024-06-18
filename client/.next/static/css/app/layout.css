@@ -1,0 +1,397 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fapp%2Fvariables.css.js.vanilla.css%22%2C%22source%22%3A%22OnJvb3QgewogIC0tcGlua19fMWV2YmxpdTA6ICNGNjdBQ0I7CiAgLS1wdXJwbGVfXzFldmJsaXUxOiAjNUIxRkE2OwogIC0tZ3JheVNjYWxlLTEwMF9fMWV2YmxpdTI6ICMwNTAxMTA7CiAgLS1ncmF5U2NhbGUtMjAwX18xZXZibGl1MzogIzBGMEMxQjsKICAtLWdyYXlTY2FsZS0zMDBfXzFldmJsaXU0OiAjM0YzRDQ5OwogIC0tZ3JheVNjYWxlLTQwMF9fMWV2YmxpdTU6ICM1NzU1NUY7CiAgLS1ncmF5U2NhbGUtNTAwX18xZXZibGl1NjogIzk5OTVBNjsKICAtLWdyYXlTY2FsZS02MDBfXzFldmJsaXU3OiAjQUNCNEJGOwogIC0tZ3JheVNjYWxlLWFscGhhNV9fMWV2YmxpdTg6IDE1MywgMTQ5LCAxNjY7CiAgLS1kYXJrU2NhbGVfXzFldmJsaXU5OiAjMUMxNjJFOwogIC0td2hpdGVfXzFldmJsaXVhOiAjZmZmOwogIC0tYmxhY2tfXzFldmJsaXViOiAjMDAwOwogIC0taGVhZGVySGVpZ2h0X18xZXZibGl1YzogOHJlbTsKICAtLWxpbmVIZWlnaHQtc2hvcnRfXzFldmJsaXVkOiAxMjAlOwogIC0tbGluZUhlaWdodC1iYXNlX18xZXZibGl1ZTogMTUwJTsKfQ%3D%3D%22%7D ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --pink__1evbliu0: #F67ACB;
+  --purple__1evbliu1: #5B1FA6;
+  --grayScale-100__1evbliu2: #050110;
+  --grayScale-200__1evbliu3: #0F0C1B;
+  --grayScale-300__1evbliu4: #3F3D49;
+  --grayScale-400__1evbliu5: #57555F;
+  --grayScale-500__1evbliu6: #9995A6;
+  --grayScale-600__1evbliu7: #ACB4BF;
+  --grayScale-alpha5__1evbliu8: 153, 149, 166;
+  --darkScale__1evbliu9: #1C162E;
+  --white__1evbliua: #fff;
+  --black__1evbliub: #000;
+  --headerHeight__1evbliuc: 8rem;
+  --lineHeight-short__1evbliud: 120%;
+  --lineHeight-base__1evbliue: 150%;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FFooter%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACp1VTY%2BbMBC951fMpVIirREkIR%2FeS6Ueeu0%2FiAxMwC3YyB7y0Sr%2FvcJASIDt7vbCYfC89%2BaNZ%2BxZuuZ4cF97OGpNaA4HHWaVqnz4MwMoRZJIlXLYGCzAf53dZt5TUqwVCan6vMDlJdKWubhyOOZ4eZ0BiFymiknCwjZBZkkYqn%2F9rCzJ45XVUKiIgy1FjCxCOiOq%2BoQ7n0iDMUmtOBh9HivJ8UjfhmqWTk2dzyGooQpxYWeZUMZht%2FT2BovXT8kdsloyWqUd3crRxTrXhsNJmDlj50wSHg4BnqJcVmJRo%2BdSIctQphlxCEL%2FiytSK2JW%2FkYOgbduhbnguT259ScaUHbca8f9UF%2FgTwBvHPCUdz86oHDo2ZOIdS3ijRLeLVyXIpZ05eB7u6YbJpWK1fQcdm3VQ3FGptmosZsPXLMYFaEZA6ZGV3fbtp8Augs2bUO8YFKxLYX6%2FkiyaywdN2KI2Mff8XJIGVVEWnV8e8fX3oOVt20xu371kUibBA2HZXkBq3OZgEkjMV%2BG4Qv0H99bL%2FrTzIhEVpZD2%2FWRd6OB7v17w1YyQlnZDPdR5oQGfG9lAYXFF2BnjH5JYsM%2F77rAM31C03jvcjlEzmiF1s59L3RGfi0wkQLmD6Oz3wflZeESP7Tuxisq1nlVuOX1ZtG3Efo%2FVtjkZP8X7f3KRZpIFxy6XTOtZ7AWBjO7anOf5G0bdbdpb8ONP%2B3t1Pvz8AKt2xfoE0L7fnZ%2BEV6IOWMmLWmK8p9ipEsOy7tHt7%2BzxOaRNQcAAA%3D%3D%22%7D ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_styles_footer__o5hunu0 {
+  padding: 6rem 0;
+}
+.style_styles_container__o5hunu1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.style_styles_leftContainer__o5hunu2 {
+  flex: 1 1;
+  max-width: 82.9rem;
+  display: flex;
+  align-items: flex-start;
+}
+.style_styles_strong__o5hunu3 {
+  color: var(--white__1evbliua);
+  line-height: 150%;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.style_styles_p__o5hunu4 {
+  max-width: 100%;
+  font-size: 1.6rem;
+}
+.style_styles_leftP__o5hunu5 {
+  flex: 1 1;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--white__1evbliua);
+  opacity: 0.8;
+  margin-left: 8.4rem;
+}
+.style_styles_righContainer__o5hunu6 {
+  display: flex;
+  align-items: center;
+}
+.style_styles_group__o5hunu7 {
+  display: flex;
+  align-items: center;
+  margin-right: 7.1rem;
+}
+.style_styles_spanGroup__o5hunu8 {
+  font-size: 1.6rem;
+  margin-right: 1.6rem;
+  color: var(--white__1evbliua);
+}
+.style_styles_button__o5hunu9 {
+  width: 3.7rem;
+  height: 3.7rem;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: filter 0.3s ease;
+}
+.style_styles_button__o5hunu9:hover {
+  filter: brightness(0.5);
+}
+@media (max-width: 991px) {
+  .style_styles_container__o5hunu1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .style_styles_leftContainer__o5hunu2 {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .style_styles_leftP__o5hunu5 {
+    margin-left: 3rem;
+    max-width: 70%;
+  }
+}
+@media (max-width: 560px) {
+  .style_styles_footer__o5hunu0 {
+    padding: 4rem 0;
+  }
+  .style_styles_leftP__o5hunu5 {
+    max-width: 90%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FHeader%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACpVUTW%2FiMBC98yvm0hWV6siBUlpzWWkve9%2FTntAkGRIXY0e2%2BeqK%2F76yE1IooS0X5IyHN89vZl7i%2FF7RPP66eUVYkJ3P0%2BVrvfIph38DgNo46aXRApyX%2BXI%2FGwB4Uwvg4aRo4dvjVha%2BEpByfhc%2BK5Jl5QVs0A4Za6B%2Fx9h8ntImU3Kd34fEDPNlac1aFwJsmeEwnTyko4fR9CGZxAS2pWwpPQuJhTU1W0jlyQrI1NoOR5ZWHc4n129M6oJ2AkZ8NAmBQrpa4V7AQtEuBFDJUjPpaeUE5KQ92dngMEjONMqN9ij1iUxplOl7aBCvWSEt5Y2o1mxD%2BHXtvFzsWYAn7QW4GnNiGfktkQ4ZSYWrbG1LsswS5j5WPamrjaaQd7igrHHTkR3fRPZrVleeE8IC0nBc4Y61o%2FE8TkI7LkVdq47g400ES6wFPCWPvagh%2Bxd6Ko3dd%2FiTG%2FC%2FBygqsyEbYV2Nuu1LbpSxx%2BmvpV52U8%2Fv%2B9t0iv6nRt1VeIqQZ4DbSnrqEDEimhpz6fcCeDKNPTDas227hY%2BcdzEn30hA2qoGoKQmdr6uIdQsK8vQvVei%2B6altpSatbufPLc43qI%2BekVkC8nYAaGjSynRyYK6F04bp8GikLo8NhR4vfvEV3JU%2BTDlfFMB%2B9xkPrgMO1MyU5i%2F9yb7oOQsGqAM48BoQ9q790WLJvilu52KgkoBP2oC3HX3C2NXojkq9PQ3vOvu3LUmLZcj1kLuqAihH4mp6Th1H7miUrN40T0pbb77y%2FJ61w4ngMZNC7pW7eFkbzJl8mUDdYi%2FAesy7bheTVaY%2BZ8rKiTC8MQW0pSHwvHfXznXmZ9MJ3ez67AvL2k%2F6jULv%2Bqx1999uJXycYp7vDVaKeli1ot7YZFXrL9HiMnTFXmVKU2HOuohO243%2BzA4%2FAdf4YPwKggAAA%3D%3D%22%7D ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_styles_header__1kjpmt10 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--headerHeight__1evbliuc);
+  background: rgba(15,12,27,.5);
+  -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
+  z-index: 2025;
+  display: flex;
+  align-items: center;
+}
+.style_styles_container__1kjpmt11 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  .hamburger-react {
+    display: none;
+  }
+}
+.style_styles_nav__1kjpmt13 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1 1;
+  max-width: 83.2rem;
+}
+.style_styles_ul__1kjpmt14 {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+.style_styles_itemCategory__1kjpmt15 {
+  display: flex;
+  align-items: center;
+}
+.style_styles_itemCategory__1kjpmt15:hover {
+  span {
+    color: var(--pink__1evbliu0);
+  }
+}
+.style_styles_itemCategorySpan__1kjpmt16 {
+  color: var(--white__1evbliua);
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: var(--lineHeight-base__1evbliue);
+  margin-left: 0.8rem;
+  transition: color .3s ease;
+}
+.style_styles_aside__1kjpmt17 {
+  padding: 6.4rem 0px;
+  width: 100%;
+  height: calc(100vh - var(--headerHeight__1evbliuc));
+  background-color: var(--black__1evbliub);
+  opacity: 0;
+  pointer-events: none;
+  top: var(--headerHeight__1evbliuc);
+  transition: all 0.3s ease 0s;
+  transform: translateY(100%);
+  z-index: 50;
+  position: fixed;
+  &.open {
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  nav {
+    ul {
+      display: block;
+    }
+    form {
+      display: flex;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .style_styles_nav__1kjpmt13 {
+    max-width: 75%;
+  }
+}
+@media (max-width: 991px) {
+  .style_styles_container__1kjpmt11 {
+    .hamburger-react {
+      display: block;
+    }
+  }
+  .style_styles_nav__1kjpmt13 {
+    max-width: 100%;
+    justify-content: flex-end;
+  }
+  .style_styles_ul__1kjpmt14 {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .style_styles_logo__1kjpmt12 {
+    max-width: 13rem;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fcomponents%2FHeader%2FForm%2Fstyle.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACoVUTY%2BbMBC98yvmUimRYmTIkkbeS9Vzb%2B0dGRjAjbGRbRLQKv%2B9wrCUfKwiZAvG4%2Fdm3swQWjdITP1u01KbJk2j7%2BdTVcUUPgKAQthW8oFBKbF%2FDwC4FJUiwmFjGeSoHJrRfBGFqxlElH4bPxvek9kUHw02o61GUdWOwT48eMs1CG%2FYhWo7t9BHnn5kZRCtr39SZDw%2FVUZ3qiC5ltowMFXGN3Tnn6130aZAwyBqe7BaimJyOXOzIaQyfPidc4mEy7bmSZpGeM6k6I7bHdAwTlYQxPBCdJZB%2BGawAQp0ehs9Wl4UQlUMKERzZgBzRBPTpRYOF3jucZ3hygontGIzB4R7C8gtjselVo6UvBFyYJCm3A3tz19%2FsHdplhyORbn4XGZV3ih9qShjreQ51lqOdB%2F%2Fw%2FSqxEmy%2B1zhmPwrtFLnnfUwjzpPibdCnZa86RPIrHNOqwUz9mhz3%2BwXMe8b56EqdCnGY1N8EcltBUoh3aoCOyAXzE7CkbuD92cT8bezTpQDybVyqNx6Kr4YloabSigisXQMCA2Tp%2FNwLw6r9Xmu2xQWg8yMyii0dkPDo0%2FrNvInLtfgR4OF4LBZDWlyoG2%2F9djhq1%2FCSgKlldfkGlz%2FAc8zm4pKBAAA%22%7D ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_styles_form__17vkgg20 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 28rem;
+  height: 3.6rem;
+}
+.style_styles_input__17vkgg21 {
+  flex: 1 1;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid rgba(var(--grayScale-alpha5__1evbliu8), 0.25);
+  border-radius: .4rem 0 0 .4rem;
+  padding: 0 1.6rem;
+  color: var(--white__1evbliua);
+  transition: border .3s ease;
+  font-family: __atypBLText_b568df;
+  font-weight: 400;
+}
+.style_styles_input__17vkgg21::placeholder {
+  color: rgba(255,255,255,.5);
+}
+.style_styles_input__17vkgg21:focus {
+  border: 1px solid var(--pink__1evbliu0);
+}
+.style_styles_button__17vkgg22 {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 0.4rem;
+  background-color: var(--pink__1evbliu0);
+  transition: filter .3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -0.5rem;
+}
+.style_styles_button__17vkgg22:hover {
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+@media (max-width: 560px) {
+  .style_styles_form__17vkgg20 {
+    display: none;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[4].use[1]!../node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[4].use[2]!../node_modules/next/font/local/target.css?{"path":"src\\app\\layout.js","import":"","arguments":[{"src":[{"path":"./../fonts/AtypBLText-Regular.woff2","weight":"400","style":"normal"},{"path":"./../fonts/AtypBLText-Medium.woff2","weight":"500","style":"normal"},{"path":"./../fonts/AtypBLText-Semibold.woff2","weight":"600","style":"normal"},{"path":"./../fonts/AtypBLText-Bold.woff2","weight":"700","style":"normal"}],"display":"swap","variable":"--font-atyp","adjustFontFallback":false}],"variableName":"atypBLText"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__atypBLText_408124';
+src: url(/_next/static/media/fc8d2668956324df.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__atypBLText_408124';
+src: url(/_next/static/media/68ef237fe340d713.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__atypBLText_408124';
+src: url(/_next/static/media/8727dcccbf34be26.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__atypBLText_408124';
+src: url(/_next/static/media/b3140d9e69f0df69.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+}.__className_408124 {font-family: '__atypBLText_408124'
+}.__variable_408124 {--font-atyp: '__atypBLText_408124'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[1]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[0].use[2]!../node_modules/@vanilla-extract/webpack-plugin/virtualNextFileLoader/dist/vanilla-extract-webpack-plugin-virtualNextFileLoader.cjs.js!../node_modules/@vanilla-extract/webpack-plugin/vanilla.virtual.css?%7B%22fileName%22%3A%22src%2Fapp%2Fapp.css.js.vanilla.css%22%2C%22source%22%3A%22%23H4sIAAAAAAAACoVT226jMBB9z1fMS1bNCiMgJFrRH9j3%2FYDKgIutGA%2FypUla5d9XNoYkpFEfPWcuZ84cVxrRwtcKoEGJuoIPql8IOXJh2dtbzj5qKRzdvK4uq98hrae6E6qC7HUFMNC2FaqLrxpPxIjPEKhRt0yTGk8eIUdWH4Ql76gsMT2i5SGLKiuoFNSw1qehs1IoVoFCxfxIbnsZpo6F4pNVsC%2FS3dqDNbbnJZhr1gcqtDl0Gp1qyd1enabnfw2VjORZNu9XbHzNr6qaeJpGo5Q11aH%2Fd%2B10V9OXotwneVEkRbZN0jw0AeBMdNxWkG4jF4CjaC2%2FiVzGacthxHLX109HjhsMQh1m4lmcGdXWtBXOVJDu5kGXlei7eLgTiUTyLFt7uBVmkPRcQS2xOXhNaUhdxgEsO1nSsgY1tQLVdKF77dM%2Fcew9YacHefVSHrw0gBSPrrteZ3tznTJU1M5aVKGGSlmBU4bZ0XV%2B92jBxmnj%2Bw0olGXaF7rRQVIYS4w9yxt7OTnR%2BGaNyyr1efeCTJVpg8pSodjokIWu128B%2BXyLW%2F2LMt3P4fifgDqLwfR5ArxIgG8T4GUCfJcA319pHqPB9llY2f8YMplu1NGH%2FoYIMRy1naVso%2FhfP9bV1FxvxjZPTu2FoJZ1qM9P%2Bd2VlXHru%2BF5tlvPJrOaKvOOuq%2FADQPTDTXs0VPLT%2BBVWx6yjBR5sUS2aTFh2yVWzKvx8hGbe%2B4esAnZPzXUf%2BNY3mlsBQAA%22%7D ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  color: var(--white__1evbliua);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1rem;
+  background-color: var(--grayScale-100__1evbliu2);
+  &::-webkit-scrollbar {
+    background-color: rgba(246,122,203,.1);
+    height: .3rem;
+    width: .3rem;
+  }
+  &::webkit-scrollbar-thumb {
+    background-color: var(--pink__1evbliu0);
+    border-radius: .5rem;
+  }
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--purple__1evbliu1);
+}
+p li {
+  color: var(--grayScale-300__1evbliu4);
+}
+button {
+  all: unset;
+  border: 0;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  font-size: 1.8rem;
+}
+.none {
+  display: none;
+}
+.container {
+  width: 100%;
+  padding: 0 1.5rem;
+  max-width: 124.6rem;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: var(--lineHeight-short__1evbliud);
+}
+p {
+  line-height: var(--lineHeight-base__1evbliue);
+  font-size: 1.8rem;
+}
+.category {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 105%;
+  text-transform: uppercase;
+  color: var(--pink__1evbliu0);
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+h4 {
+  font-size: 2.4rem;
+}
+h5 {
+  font-size: 2rem;
+}
+h6 {
+  font-size: 1.8rem;
+}
